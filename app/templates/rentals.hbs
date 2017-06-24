@@ -1,0 +1,9 @@
+{{outlet}}
+<h1>Rentals</h1>
+<div class="rentals">
+  <ul>
+  {{#each model as |rental|}}
+    <li><span>{{rental.name}}</span></li>
+  {{/each}}
+  </ul>
+</div>
